@@ -1,15 +1,32 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import Logo from "./cover.png";
+
+
 const signup = () => {
   return (
-    <div>
-      <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen">
+      <div class="flex justify-between ">
+        <div class="text-gray-700 text-center  px-4 py-2 m-2">
+          <Link to="/">
+            <div>
+              <img src={Logo} alt="HOOK UP" className="h-20" />
+            </div>
+          </Link>
+        </div>
+        <div class="text-gray-700 text-center  px-4 py-2 m-2">
+          <Link to="/signin">
+            <div className="text-white font-bold transition duration-500 ease-in-out text-center rounded hover:bg-blue-300 focus:shadow-outline   bg-blue-500 px-4 py-2 m-2">
+              Signin
+            </div>
+          </Link>
+        </div>
+      </div>
+      <div className=" flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
         <form className="w-full max-w-sm">
           
           <div className="md:flex md:items-center mb-6 ">
-            <div className="md:w-1/3">
-            <img src={Logo} alt="HOOK UP" className=" h-24 ml-48   " />
-            </div>
+            
             
           </div>
 
