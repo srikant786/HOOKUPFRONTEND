@@ -6,15 +6,15 @@ import Logo from "./cover.png";
 const signup = () => {
   return (
     <div className="min-h-screen">
-      <div class="flex justify-between ">
-        <div class="text-gray-700 text-center  px-4 py-2 m-2">
+      <div className="flex justify-between ">
+        <div className="text-gray-700 text-center  px-4 py-2 m-2">
           <Link to="/">
             <div>
               <img src={Logo} alt="HOOK UP" className="h-20" />
             </div>
           </Link>
         </div>
-        <div class="text-gray-700 text-center  px-4 py-2 m-2">
+        <div className="text-gray-700 text-center  px-4 py-2 m-2">
           <Link to="/signin">
             <div className="text-white font-bold transition duration-500 ease-in-out text-center rounded hover:bg-blue-300 focus:shadow-outline   bg-blue-500 px-4 py-2 m-2">
               Signin
