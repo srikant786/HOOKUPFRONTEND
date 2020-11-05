@@ -1,5 +1,5 @@
 ### HOOK UP FRONTEND
 
 * Build App Through CRA
-* Prettier and Es-lint added
+*  Setup Prettier and Es-lint 
  
